@@ -7,7 +7,7 @@
 
 .secondHeader{
     background: #de1820;
-    min-height: 110px;
+    min-height: 100px;
     color: white;
     position: sticky;
     justify-content: space-between;
@@ -19,7 +19,7 @@
   }
 
 .logo{
-    max-height: 110px;
+    max-height: 100px;
 }
 
 .icon{

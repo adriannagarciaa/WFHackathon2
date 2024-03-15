@@ -13,6 +13,9 @@ import { HeadersComponent } from './headers/headers.component';
 import { PortalComponent } from './portal/portal.component';
 import { EventsComponent } from './events/events.component';
 import { HelpcompComponent } from './helpcomp/helpcomp.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { HelpcompComponent } from './helpcomp/helpcomp.component';
     MatToolbarModule,
     MatTabsModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [
     provideAnimationsAsync()
