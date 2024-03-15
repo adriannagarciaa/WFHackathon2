@@ -2,6 +2,7 @@
     color: black;
     background: #fcba03;
     position: sticky;
+    justify-content: space-between;
 }
 
 .secondHeader{
@@ -9,21 +10,19 @@
     min-height: 110px;
     color: white;
     position: sticky;
+    justify-content: space-between;
 }
 
-.matLabel{
-    color: white;
-    font-size: large;
-    padding: 30px;
-}
+.header-nav.mat-tab-link {
+    color: white; /* Set text color to white */
+    font-size: 16px; /* Change font size as needed */
+  }
 
 .logo{
     max-height: 110px;
-    justify-content: left;
-    margin-right: 25%;
 }
 
-.search{
-    margin-left: 25%;
+.icon{
+    padding: 20px;
     transform: scale(1.5)
 }

@@ -1,34 +1,20 @@
 <p> 
     <mat-toolbar class = "firstHeader">
-      <span>Room Portal</span>
+      <h1>Room Portal</h1>
+      <h1>Role: Event Organizer</h1>
+      <h1>Hi, User</h1>
+      <mat-icon class="icon">person</mat-icon>
     </mat-toolbar>
     <mat-toolbar class = "secondHeader">
       <img class = "logo" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png">
-      <mat-tab-group mat-align-tabs="center" animationDuration="0ms"> 
-        <mat-tab>
-          <ng-template mat-tab-label>
-            <span class="matLabel">Home</span>
-          </ng-template>
-        </mat-tab>
-        
-        <mat-tab>
-          <ng-template mat-tab-label>
-            <span class="matLabel">Create Event</span>
-          </ng-template>
-        </mat-tab>
-        <mat-tab>
-          <ng-template mat-tab-label>
-            <span class="matLabel">My Events</span>
-          </ng-template>
-        </mat-tab>
-        <mat-tab>
-          <ng-template mat-tab-label>
-            <span class="matLabel">Help</span>
-          </ng-template>
-        </mat-tab>
-      </mat-tab-group> 
+      <nav mat-tab-nav-bar class="header-nav"> 
+        <a mat-tab-link routerLink="/portal">Home</a>
+        <a mat-tab-link routerLink="/create">Create Event</a>
+        <a mat-tab-link routerLink="/events">My Events</a>
+        <a mat-tab-link routerLink="/help">Help</a>
+      </nav> 
 
-      <mat-icon class="search">search</mat-icon>
+      <mat-icon class="icon">search</mat-icon>
     </mat-toolbar>
 </p>
 
