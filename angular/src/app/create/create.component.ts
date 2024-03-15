@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './create.component.css'
 })
 export class CreateComponent {
-
+  selectedDate: any;
+  
+  onSelect(event: Event){
+    console.log(event);
+    this.selectedDate= event;
+  }
 }
