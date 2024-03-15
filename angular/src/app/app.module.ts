@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { CreateComponent } from './create/create.component';
 import { HeadersComponent } from './headers/headers.component';
 import { PortalComponent } from './portal/portal.component';
+import { EventsComponent } from './events/events.component';
+import { HelpcompComponent } from './helpcomp/helpcomp.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { PortalComponent } from './portal/portal.component';
     PortalComponent,
     HeadersComponent,
     CreateComponent,
+    EventsComponent,
+    HelpcompComponent,
   ],
   imports: [
     BrowserModule,
