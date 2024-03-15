@@ -1,20 +1,29 @@
 .firstHeader{
     color: black;
     background: #fcba03;
+    position: sticky;
 }
 
 .secondHeader{
     background: #de1820;
     min-height: 110px;
     color: white;
-    justify-content: center;
-    
+    position: sticky;
 }
 
-.tabs{
-    color: black;
+.matLabel{
+    color: white;
+    font-size: large;
+    padding: 30px;
 }
 
 .logo{
     max-height: 110px;
+    justify-content: left;
+    margin-right: 25%;
+}
+
+.search{
+    margin-left: 25%;
+    transform: scale(1.5)
 }

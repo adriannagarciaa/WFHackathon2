@@ -1,0 +1,13 @@
+.intro{
+    margin-top: 25%;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+.descrip{
+    text-align: center;
+    font-size: medium;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
