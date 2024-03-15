@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 import { PortalComponent } from './portal/portal.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTabsModule} from '@angular/material/tabs';
+import { HeadersComponent } from './headers/headers.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortalComponent,
+    HeadersComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,7 +21,9 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatToolbarModule,
     MatTabsModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
