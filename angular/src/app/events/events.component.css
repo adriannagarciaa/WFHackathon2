@@ -5,10 +5,52 @@ h1{
     text-align: center;
 }
 
+h3{
+    margin-top: 3%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
 hr{
     margin-top: 3%;
     margin-bottom: 3%;
     width: 90%;
     color: #fcba03;
     background-color: #fcba03;
+}
+
+img{
+    width: 275px;
+    height: 175px;
+}
+
+div{
+    margin: 0 auto;
+}
+
+tr{
+    font-size: 16px;
+}
+
+.table-container{
+    background-color: #de1820;
+    width: 75%;
+    height: 200px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+}
+
+.card-container{
+    width: 300px;
+    background-color: #fcba03;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
