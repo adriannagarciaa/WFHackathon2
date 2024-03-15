@@ -7,9 +7,13 @@ import { Component } from '@angular/core';
 })
 export class CreateComponent {
   selectedDate: any;
+  defaultValue = {hour: 13, minute: 30};
   
   onSelect(event: Event){
     console.log(event);
     this.selectedDate= event;
   }
+
+  timeChangedHandler(event: any){}
+  invalidInputHandler(){}
 }

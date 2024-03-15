@@ -10,8 +10,16 @@
 
 <div>
     <h3>Enter event date and time</h3>
+    <h3 style="font-weight: bold;">Date</h3>
     <mat-card class="calendar-card">
         <mat-calendar [selected]="selectedDate" (selectedChange)="onSelect($event)"></mat-calendar>
     </mat-card>
     <p style="margin-top: 3%; text-align: center;">Selected Date: {{selectedDate}}</p>
+    <h3 style="font-weight: bold;">Time</h3>
+
+    <mat-card class="calendar-card">
+        <input matInput [ngxMatTimepicker]="picker" />
+        <ngx-mat-timepicker #picker></ngx-mat-timepicker>
+    </mat-card>
+    <hr>
 </div>
